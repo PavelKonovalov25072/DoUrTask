@@ -1,0 +1,14 @@
+ :root {
+    --do-ur-button-bg: #D9D9D9;
+    --do-ur-button-color: #000000;
+    --do-ur-button-hover-bg: #C1C1C1;
+
+    --do-ur-input-bg: #D9D9D9;
+    --do-ur-input-hover-bg: #C1C1C1;
+
+    --do-ur-text-bg: #34BA51;
+    --do-ur-text-color: #000000;
+    --do-ur-bg: #95FB9F;
+    --do-ur-content-bg: #FFFFFF;
+
+ }

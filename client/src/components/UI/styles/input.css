@@ -1,0 +1,23 @@
+.input{
+    padding: 19px 23px;
+    width: 100%;
+    height: 77px;
+    box-shadow: inset 0px 2px 9px #000000;
+    border-radius: 10px;
+    border: none;
+    background: var(--do-ur-input-bg);
+    outline: 0;
+
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--do-ur-button-color);
+}
+.input:hover{
+    background-color: var(--do-ur-input-hover-bg);
+}
+.input-error{
+    border-bottom: 2px solid #FF0000;
+}
+.input-error::placeholder{
+    color: red;
+}

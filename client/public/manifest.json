@@ -1,0 +1,8 @@
+{
+  "short_name": "DoUrTask",
+  "name": "DoUrTask",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#95FB9F",
+  "background_color": "#95FB9F"
+}

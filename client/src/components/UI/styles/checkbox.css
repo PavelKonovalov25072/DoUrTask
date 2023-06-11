@@ -1,0 +1,21 @@
+.checkbox-icon{
+    width: 80px;
+    height: 80px;
+    border: 10px solid black;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+.checkbox-icon__svg{
+    scale: 0;
+    transition: all 0.3s ease;
+}
+.checkbox:checked + .checkbox-icon > .checkbox-icon__svg{
+    scale: 1;
+}
+.checkbox{
+    display: none;
+}
