@@ -1,0 +1,14 @@
+FROM node:12
+
+WORKDIR /dourtask/src/app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+RUN NODE_ENV=development npm i
+
+EXPOSE 8080
+CMD [ "node", "dist/main" ]
